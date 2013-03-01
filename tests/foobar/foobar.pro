@@ -1,5 +1,7 @@
 TEMPLATE = app
+
 TARGET = tst_foobar 
+
 DEPENDPATH += .
 INCLUDEPATH += .
 

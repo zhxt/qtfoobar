@@ -1,0 +1,19 @@
+/*!
+\page qtfoobar-index.html
+\title QtFoobar
+\brief QtFoobar module is a Qt template module.
+\class QFoobar 
+
+QtFoobar module is a Qt module template. It demonstrates
+the structure of a custom Qt module, include src, doc, tests, etc.
+
+Qt module structure looks like this bellow:
+
+\snippet qtfoobar-structure.qdoc structure
+
+Examples:
+\snippet doc_src_foobar.cpp 0
+
+\example helloqtfoobar
+
+*/

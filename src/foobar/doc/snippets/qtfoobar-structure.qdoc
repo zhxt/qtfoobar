@@ -1,0 +1,35 @@
+//! [structure]
+.
+|-- doc
+|   `-- global
+|       |-- qt-html-templates-offline.qdocconf
+|       |-- qt-module-defaults.qdocconf
+|       `-- style
+|           `-- offline.css
+|-- examples
+|   `-- helloqtfoobar
+|       |-- helloqtfoobar.pro
+|       `-- main.cpp
+|-- qtfoobar.pro
+|-- src
+|   |-- foobar
+|   |   |-- doc
+|   |   |   |-- images
+|   |   |   |-- qtfoobar.qdocconf
+|   |   |   |-- snippets
+|   |   |   |   `-- doc_src_foobar.cpp
+|   |   |   `-- src
+|   |   |       `-- qtfoobar.qdoc
+|   |   |-- foobar.pro
+|   |   |-- qfoobar.cpp
+|   |   |-- qfoobar.h
+|   |   `-- qfoobar_p.h
+|   `-- src.pro
+|-- sync.profile
+`-- tests
+    |-- foobar
+    |   |-- foobar.pro
+    |   `-- tst_foobar.cpp
+    `-- tests.pro
+
+//! [structure]

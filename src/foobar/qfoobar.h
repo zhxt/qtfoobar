@@ -3,6 +3,8 @@
 
 #include <QWidget>
 
+class QFoobarPrivate;
+
 class Q_DECL_EXPORT QFoobar: public QWidget
 {
 	Q_OBJECT
@@ -13,6 +15,7 @@ public:
 	void sayHi();
 private:
 	int id;	
+	QFoobarPrivate *d_ptr;
 };
 
 #endif
