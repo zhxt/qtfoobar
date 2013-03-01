@@ -1,3 +1,31 @@
-QtFoobar module
+WHAT'S QtFoobar 
+================
+  QtFoobar is a simple custom Qt module demo.
+  It shows the basic structure of a Qt module.
 
-Just for fun! :)
+  Just for fun! :)
+
+ATTENTION
+================
+  File ".gitignore" is copied from another open source repo qt5/qtbase
+
+
+HOW TO BUILD
+================
+  Requirements:
+    - qt5 is needed.
+
+  Instructions:
+    cd qtfoorbar
+    qmake
+    make 
+    make docs
+
+ISSUES
+================
+1. Project ERROR: Project has no top-level .qmake.conf file.
+
+  cd qtfoobar
+  touch .qmake.conf
+
+  then run make.
