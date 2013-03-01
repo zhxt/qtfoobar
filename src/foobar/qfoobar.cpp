@@ -3,6 +3,12 @@
 
 /*!
 	\class QFoobar
+	\brief QFoobar class is a demo class.
+	
+	\inmodule QtFoobar
+	\since 1.0
+
+	QFoobar class is a simple class.
 */
 
 /*!
